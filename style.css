@@ -1,0 +1,192 @@
+.bg{
+    background: url(images/bg-sudoku.jpeg); 
+    background-size: cover;
+    background-position: right;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 60px;
+    background-color: #c19543;
+} 
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#logo img{
+    width: 150px;
+    height: 100px;
+}
+
+#name{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.sudoku_grid{
+    display: flex;
+    flex-direction: row;
+    max-width: 578px;
+    flex-wrap: wrap;
+    margin: 10px auto ;
+}
+
+.sudoku_grid div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 40px;
+
+    box-sizing: border-box;
+}
+
+.Buttons{   
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    margin-bottom: 80px;
+}
+
+#GetPuzzle,#SolvePuzzle{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #c19543;
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 1px solid #2d6898;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
+    margin-right: 10px;
+}
+
+.box1{
+    background-color: #5863dd;
+    border: 2px solid  white;
+}
+
+.box1:hover{
+    background-color: #5f8fb8;
+    color: black;
+}
+
+.box2{
+    background-color: #e9a098;
+    border: 2px solid  white;
+}
+.box2:hover{
+    background-color: rgb(212, 164, 130);
+    color: black;
+}
+
+.box3{
+    background-color: #5db38a;
+    border: 2px solid  white;
+}
+.box3:hover{
+    background-color: #97e09f;
+    color: black
+}
+
+.box4{
+    background-color: #e453bb;
+    border: 2px solid  white;
+}
+
+.box4:hover{
+    background-color: #c37db2;
+    color: black;
+}
+
+.box5{
+    background-color: #ddd737;
+    border: 2px solid  white;
+}
+.box5:hover{
+    background-color: #e4e87f;
+    color: black;
+}
+
+.box6{
+    background-color: #58bfe5;
+    border: 2px solid  white;
+}
+.box6:hover{
+    background-color: #97c5e0;
+    color: black
+}
+
+.box7{
+    background-color: #de2424d3;
+    border: 2px solid  white;
+}
+
+.box7:hover{
+    background-color: #d7ab8d93;
+    color: black;
+}
+
+.box8{
+    background-color: #9fb783;
+    border: 2px solid  white;
+}
+.box8:hover{
+    background-color: #c6d1ad;
+    color: black;
+}
+
+.box9{
+    background-color: #bf58e5;
+    border: 2px solid  white;
+}
+
+.box9:hover{
+    background-color: #cb9ce1;
+    color: black;
+}
+
+.bl{
+    border-left: 4px solid black;
+}
+
+.bb{
+    border-bottom: 4px solid black;
+}
+
+.br{
+    border-right: 4px solid black;
+}
+
+.bt{
+    border-top: 4px solid black;
+}
+
+.colored-number {
+    color: black;
+}
+
+  
+  
+  
+  
+  
+  
